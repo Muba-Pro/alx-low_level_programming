@@ -9,11 +9,15 @@ int main(void)
 {
 	char lwc, upc;
 
-	for (lwc = 'a', upc = 'A' ; lwc <= 'z' && upc <= 'Z'; lwc++, upc++)
+	for (lwc = 'a'; lwc <= 'z'; lwc++)
 	{
 		putchar(lwc);
+	}
+	for (upc = 'A'; upc <= 'Z'; upc++)
+	{
 		putchar(upc);
 	}
+
 	putchar('\n');
 	return (0);
 }
