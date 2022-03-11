@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char lwc, upc;
+	char lwc;
 
 	for (lwc = 'a'; lwc <= 'z'; lwc++)
 	{
