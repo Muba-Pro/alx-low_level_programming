@@ -1,0 +1,1 @@
+This is a readme for more pinters, arrays and strings project tasks
